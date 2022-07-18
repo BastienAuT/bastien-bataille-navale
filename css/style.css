@@ -1,0 +1,64 @@
+html {
+  --cell-size: 50px;
+  --color-one: #8bc9cc;
+  --color-two: #286e83c7;
+  --color-three: #00edff26;
+  background-color: rgb(190, 155, 255);
+  
+  font-family: "Lucida Console", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color:rgb(0, 119, 255)
+}
+
+p {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  text-align: center;
+  color:rgb(0, 41, 88)
+}
+
+strong {
+  font-weight: bold;
+}
+
+#gameboard {
+  font-size: 14px;
+  display: inline-block;
+  margin: 1rem 0;
+
+  border: 1px solid var(--color-one);
+}
+
+header.cell {
+  background-color: var(--color-one);
+  color: var(--color-two);
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+.row {
+  background-color: var(--color-two);
+  display: flex;
+}
+
+.cell {
+  color: var(--color-one);
+  font-size: 1.2rem;
+  text-align: center;
+  width: var(--cell-size);
+  height: var(--cell-size);
+  line-height: var(--cell-size);
+  white-space: nowrap;
+  flex-grow: 1;
+  border-bottom: 1px solid var(--color-one);
+  border-right: 1px solid var(--color-one);
+}
+
+
+
